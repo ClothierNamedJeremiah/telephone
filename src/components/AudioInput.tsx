@@ -120,7 +120,7 @@ const AudioInput = memo(function AudioInput({ src }: AudioInputProps) {
         required
         className={clsx(
           ma_shan_zheng.className,
-          'block px-4 text-3xl md:text-5xl',
+          'block w-full px-4 text-3xl md:text-5xl',
           'focus:outline focus:outline-4 focus:outline-offset-2 focus:outline-black'
         )}
       />
